@@ -1,0 +1,24 @@
+(set-face-background 'shm-current-face "#eee8d5")
+(set-face-background 'shm-quarantine-face "lemonchiffon")
+
+
+;; Git cheat sheet
+
+;; C-x g   --git status
+;; s       --select files to stage /as in copy/cut
+;; c c     --git commit  / add commit message
+;; C-c C-c --git commit done
+;; P u     --git push origin master
+
+;; SHM structured haskell mode
+
+;; C-j newline indent/ not working just Return works???
+;; M-a jumps to start of parent node
+;; )   jumps to end of parent node
+;; C-+ add operand
+
+
+;;hoogle 'search' and 'doc' add to ghci /cant seem to make .ghci work
+
+;; :def search \x -> return $ ":!hoogle --color --count=20 \"" ++ x ++ "\""
+;; :def doc \x -> return $ ":!hoogle --info \"" ++ x ++ "\""
