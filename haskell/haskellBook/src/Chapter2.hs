@@ -407,3 +407,10 @@ waxOff x = triple x
 4.  'value' is a expression that cannot be reduce or evaluated any further.
 
 5.   'function' is a mathematical object whose capabilities blah blah blah
+-}
+
+
+multi =
+  x * y
+  where x = 5
+        y = 6
