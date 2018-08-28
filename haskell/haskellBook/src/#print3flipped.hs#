@@ -1,0 +1,8 @@
+module Print3Flipped where
+
+myGreeting :: String
+myGreeting =
+  (++) "hello" " haskell!"
+
+hello :: String
+hello = "hello"
